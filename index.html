@@ -31,10 +31,12 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Skills</a></li>
-								<li><a href="elements.html">Project</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="#one">Skills</a></li>
+								<li><a href="#two">About</a></li>
+								<li><a href="#four">Experience</a></li>
+								<li><a href="#footer">Contact</a></li>
+								<!-- <li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li> -->
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -78,32 +80,49 @@
 									</div>
 								</div>
 							</section>
-
+							
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
-									<h1 class="major" style="width:50%; margin:auto; font-size:1.4em; margin-bottom:10px;">Experience</h1>
+									<!-- <h1 class="major" style="width:85%; margin:auto; font-size:1.4em; margin-bottom:10px;">Experience</h1> -->
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<!-- <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a> -->
 									<div class="content">
-										<h2 class="major">Nike.com Clone</h2>
-										<p>Fret-Finder is a full stack crowd-sourced social networking application connecting guitar instructors with local students. Using Redux and Redux Promise Middleware to manage global state changes the web app features the creation of users, instructors, available schedules, reviews, and lessons. All of the data is stored in five normalized PostgreSQL tables utilizing one-to-one and one-to-many relationships. Technologies used - React.JS, Redux, RESTful API, Node.JS, Express.JS Auth0, Sass</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">About</h2>
+										<p style="text-align: justify">I am a full stack Jr. Web Developer who has recently completed the DevMountain Web Immersive Bootcamp in Phoenix, Arizona. Focusing on libraries and frameworks such as React, Redux, Javascript, PostgreSQL, NodeJS and more, I continue to learn and grow as I embark out into the professional web development world. 
+											<br /><br />I am currently a mentor at DevMountain where I continue to push myself and those around me to help improve the future of web development and design. </p>
+										<!-- <a href="#" class="special">Learn more</a> -->
 									</div>
 								</div>
 							</section>
 
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
+							
+							<!-- Three -->
+							<section id="four" class="wrapper spotlight style3">
+								<h1 class="major" style="width:85%; margin:auto; margin-bottom:10px; padding-top:20px">Experience</h1>
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Fret Finder</h2>
-										<p>Fret-Finder is a full stack crowd-sourced social networking application connecting guitar instructors with local students. Using Redux and Redux Promise Middleware to manage global state changes the web app features the creation of users, instructors, available schedules, reviews, and lessons. All of the data is stored in five normalized PostgreSQL tables utilizing one-to-one and one-to-many relationships. <br /><br /> Technologies used - React.JS, Redux, RESTful API, Node.JS, Express.JS Auth0, Sass</p>
-										<a href="#" class="special">Learn more</a>
+											<h2 class="major">Nike.com Clone</h2>
+											<p style="text-align: justify"><b>Full featured responsive e-commerce</b> web application clone of the Nike.com.
+											Built in a 2-member group in 14 days, this web app features thousands of Nike products, product reviews, user wishlist, order history, guest checkout, a full store and a checkout process utilizing Stripe.js and Nodemailer. User authentification and authorization is handled using Auth0.     
+											The project was run with bi-weekly sprints, SCRUM stand-ups, and git version control. 
+											<br /><br />Technologies used - React.JS, Redux, Redux Promise Middleware, Node.JS, Auth0, Sass, Stripe, NodeMailer, Mapbox</p>
+											<a href="https://github.com/JacobTBralish/nike-clone" class="special">Learn more</a>
+										</div>
+									</div>
+								</section>
+								
+								
+								<section id="three" class="wrapper alt spotlight style2">
+									<div class="inner">
+										<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+										<div class="content">
+											<h2 class="major">Fret Finder</h2>
+											<p style="text-align: justify">Fret-Finder is a <b>full stack crowd-sourced social networking application</b> connecting guitar instructors with local students. Using Redux and Redux Promise Middleware to manage global state changes the web app features the creation of users, instructors, available schedules, reviews, and lessons. All of the data is stored in five normalized PostgreSQL tables utilizing one-to-one and one-to-many relationships. <br /><br /> Technologies used - React.JS, Redux, RESTful API, PostgreSQL, Node.JS, Express.JS Auth0, Sass</p>
+										<a href="https://github.com/austincallaghan/personal-project#adding-a-css-preprocessor-sass-less-etc" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
-
 						<!-- Four -->
 							<!-- <section id="four" class="wrapper alt style1">
 								<div class="inner">
@@ -147,8 +166,8 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<p style="text-align: justify">Contact me anytime for questions, comments or business inquiries. Using the following links on, please connect with me via email or text and feel free to browse my work on GitHub. I am happy to help and will get back to you as soon as I can.</p>
+							<form method="post" action="https://formspree.io/austindwc159@gmail.com" method="post">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -157,6 +176,10 @@
 									<div class="field">
 										<label for="email">Email</label>
 										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="subject">Subject</label>
+										<input type="text" name="subject" id="email" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
@@ -175,9 +198,9 @@
 								</li> -->
 								<li class="fa-phone">(208) 818-4693</li>
 								<li class="fa-envelope"><a href="#">austindwc159@gmail.com</a></li>
-								<li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="fa-facebook"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="fa-github"><a href="https://github.com/austincallaghan">/austincallaghan</a></li>
+								<li class="fa-linkedin"><a href="https://www.linkedin.com/in/austincallaghan/">/in/austincallaghan/</a></li>
+								<!-- <li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
 							</ul>
 							<ul class="copyright">
 								<li>&copy; A. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
